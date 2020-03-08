@@ -39,3 +39,22 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  .topbar {
+    .container {
+      .menu {
+        display: none;
+      }
+      .brand {
+        width: 100%;
+        .brand-logo {
+          width: 80%;
+        }
+      }
+      .cart {
+        display: none;
+      }
+    }
+  }
+}

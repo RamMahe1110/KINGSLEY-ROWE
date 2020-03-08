@@ -84,9 +84,8 @@ class Homeview extends Component {
             <button className="view-colln-btn">VIEW THE COLLECTION</button>
           </div>
         </section>
-       <section className="extra-showcase">
-         .
-       </section>
+        <section className="extra-showcase"></section>
+        <footer className="footer"></footer>
       </div>
     )
   }

@@ -14,7 +14,7 @@
       cursor: pointer;
     }
     .down {
-      top: 90%;
+      top: 95%;
       width: 40px;
     }
     .showcase {
@@ -67,6 +67,7 @@
   .featured-prds {
     padding: 100px;
     .container {
+      text-align: center;
       width: 85%;
       margin: auto;
       .title {
@@ -91,6 +92,77 @@
             margin: auto;
             .prd-img {
               width: 100%;
+            }
+          }
+        }
+      }
+      .view-colln-btn {
+        padding: 30px;
+        width: 450px;
+        text-align: center;
+        background: #e4e4e4;
+        font-weight: 600;
+        font-size: 25px;
+        margin: 50px 0 0 0;
+      }
+    }
+  }
+  .extra-showcase {
+    height: 100vh;
+    background-image: url('https://cdn.shopify.com/s/files/1/0654/5561/t/2/assets/home-slider-2_1920x1000.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 1200px) {
+  .homeview {
+    .featured-prds {
+      padding: 50px 40px;
+      .container {
+        width: 90%;
+        .prds-colln {
+          .prd {
+            .prd-title {
+              font-size: 25px;
+            }
+          }
+        }
+        .view-colln-btn {
+          padding: 20px 0;
+          width: 200px;
+          font-size: 15px;
+          margin: 50px 0 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .homeview {
+    .featured-prds {
+      padding: 100px 50px;
+      .container {
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .homeview {
+    .featured-prds {
+      padding: 50px 20px;
+      .container {
+        width: 95%;
+        .prds-colln {
+          display: grid;
+          grid-template-columns: 50% 50%;
+          .prd {
+            .prd-title {
+              font-size: 20px;
             }
           }
         }
@@ -126,6 +198,25 @@
       .container {
         .info {
           font-size: 25px;
+        }
+      }
+    }
+    .featured-prds {
+      padding: 50px 10px;
+      .container {
+        width: 100%;
+        .prds-colln {
+          .prd {
+            .prd-title {
+              font-size: 17px;
+            }
+          }
+        }
+        .view-colln-btn {
+          padding: 20px 0;
+          width: 170px;
+          font-size: 12px;
+          margin: 50px 0 0 0;
         }
       }
     }

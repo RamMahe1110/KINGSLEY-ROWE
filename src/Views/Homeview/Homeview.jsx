@@ -81,8 +81,12 @@ class Homeview extends Component {
                 imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
               />
             </div>
+            <button className="view-colln-btn">VIEW THE COLLECTION</button>
           </div>
         </section>
+       <section className="extra-showcase">
+         .
+       </section>
       </div>
     )
   }

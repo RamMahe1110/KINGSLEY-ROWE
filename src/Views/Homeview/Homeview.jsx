@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Homeview.scss'
+import Product from '../../Components/Product/Product'
 
 class Homeview extends Component {
   state = {}
@@ -36,6 +37,50 @@ class Homeview extends Component {
           <div className="gender-nav">
             <button className="gender-nav-btn">WOMEN</button>
             <button className="gender-nav-btn">MEN</button>
+          </div>
+        </section>
+        <section className="featured-prds">
+          <div className="container">
+            <h2 className="title">FEATURED PRODUCTS</h2>
+            <div className="prds-colln">
+              <Product
+                title="DREW"
+                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
+              />
+              <Product
+                title="DREW"
+                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
+              />
+              <Product
+                title="DREW"
+                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
+              />
+              <Product
+                title="DREW"
+                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
+              />
+              <Product
+                title="DREW"
+                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
+              />
+
+              <Product
+                title="DREW"
+                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
+              />
+              <Product
+                title="DREW"
+                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
+              />
+              <Product
+                title="DREW"
+                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
+              />
+              <Product
+                title="DREW"
+                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
+              />
+            </div>
           </div>
         </section>
       </div>

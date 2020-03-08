@@ -1,0 +1,75 @@
+.homeview {
+  .homeview-header {
+    position: relative;
+    height: 100vh;
+    .play-vid,
+    .down {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+    }
+    .play-vid {
+      top: 50%;
+      width: 60px;
+      cursor: pointer;
+    }
+    .down {
+      top: 90%;
+      width: 40px;
+    }
+    .showcase {
+      width: 100%;
+      height: 100%;
+      .hero {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 40% top;
+        vertical-align: middle;
+      }
+    }
+  }
+  .shopping-guide {
+    background-color: #ffffff;
+    padding: 100px 0;
+    .container {
+      width: 80%;
+      max-width: 800px;
+      margin: auto;
+      .info {
+        text-align: center;
+        font-size: 40px;
+      }
+    }
+  }
+  .gender-guide {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://cdn.shopify.com/s/files/1/0654/5561/t/2/assets/home-list-2_1920x1100.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    .gender-nav {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -30%);
+      .gender-nav-btn {
+        display: block;
+        width: 280px;
+        font-weight: bold;
+        font-size: 25px;
+        padding: 30px 30px;
+        margin: 0 0 15px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .homeview {
+    .homeview-header {
+      height: 85vh;
+    }
+  }
+}

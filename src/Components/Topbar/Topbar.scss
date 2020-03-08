@@ -1,0 +1,41 @@
+.topbar {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px 0;
+  .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .menu {
+      width: 10%;
+      .menu-icon {
+        width: 25px;
+        height: auto;
+      }
+    }
+    .brand {
+      width: 80%;
+      text-align: center;
+      .brand-logo {
+        width: 350px;
+      }
+    }
+    .cart {
+      width: 5%;
+      font-weight: bold;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid black;
+      padding: 5px 30px;
+      .items-count {
+        margin-left: 7px;
+      }
+    }
+  }
+}

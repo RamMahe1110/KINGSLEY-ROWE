@@ -49,7 +49,7 @@ class Homeview extends Component {
               />
               <Product
                 title="DREW"
-                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
+                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/DREW_KRS026_NOIR_C1_53-20-140_grande.jpg?v=1489227424"
               />
               <Product
                 title="DREW"

@@ -3,8 +3,58 @@ import './Homeview.scss'
 import Product from '../../Components/Product/Product'
 
 class Homeview extends Component {
-  state = {}
+  state = {
+    featuredProducts: [
+      {
+        name: 'VINCE',
+        image:
+          '//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561'
+      },
+      {
+        name: 'DREW',
+        image:
+          '//cdn.shopify.com/s/files/1/0654/5561/products/DREW_KRS026_NOIR_C1_53-20-140_grande.jpg?v=1489227424'
+      },
+      {
+        name: 'ELLA',
+        image:
+          '//cdn.shopify.com/s/files/1/0654/5561/products/ELLA_KR025_WOOD_C1_50-17-140_d0315e66-9658-428b-8cd8-513fd8e8fe87_grande.jpg?v=1489227490'
+      },
+      {
+        name: 'COLETTE',
+        image:
+          '//cdn.shopify.com/s/files/1/0654/5561/products/COLETTE_KRS023_GRANITE_C1-_49-19-140_grande.jpg?v=1489227330'
+      },
+
+      {
+        name: 'COLETTE',
+        image:
+          '//cdn.shopify.com/s/files/1/0654/5561/products/COLETTE_KR023_GRANITE_C1_49-19-140_grande.jpg?v=1489227246'
+      },
+      {
+        name: 'BENNY',
+        image:
+          '//cdn.shopify.com/s/files/1/0654/5561/products/BENNY_KRS024_CHARCOAL_C1_-_51-20-140_grande.jpg?v=1489227115'
+      },
+      {
+        name: 'BENNY',
+        image:
+          '//cdn.shopify.com/s/files/1/0654/5561/products/BENNY_KR024_CHARCOAL_C1_51-20-140_grande.jpg?v=1489226663'
+      },
+      {
+        name: 'FINN',
+        image:
+          '//cdn.shopify.com/s/files/1/0654/5561/products/BURNTRX-FRONT_9af36b95-4b9c-4a7e-b592-bad751873caf_grande.jpg?v=1463783219'
+      },
+      {
+        name: 'AUGUST',
+        image:
+          '//cdn.shopify.com/s/files/1/0654/5561/products/NOIR-FRONT_f848ee96-5c9b-4dd1-8851-5bb3707890b2_grande.jpg?v=1463781933'
+      }
+    ]
+  }
   render() {
+    const { featuredProducts } = this.state
     return (
       <div className="homeview">
         <header className="homeview-header">
@@ -43,43 +93,9 @@ class Homeview extends Component {
           <div className="container">
             <h2 className="title">FEATURED PRODUCTS</h2>
             <div className="prds-colln">
-              <Product
-                title="DREW"
-                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
-              />
-              <Product
-                title="DREW"
-                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/DREW_KRS026_NOIR_C1_53-20-140_grande.jpg?v=1489227424"
-              />
-              <Product
-                title="DREW"
-                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
-              />
-              <Product
-                title="DREW"
-                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
-              />
-              <Product
-                title="DREW"
-                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
-              />
-
-              <Product
-                title="DREW"
-                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
-              />
-              <Product
-                title="DREW"
-                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
-              />
-              <Product
-                title="DREW"
-                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
-              />
-              <Product
-                title="DREW"
-                imgURL="//cdn.shopify.com/s/files/1/0654/5561/products/VINCE_KR027_SAPPHIRE_C1_54-19-140_grande.jpg?v=1489227561"
-              />
+              {featuredProducts.map((prd, i) => (
+                <Product key={i} title={prd.name} imgURL={prd.image} />
+              ))}
             </div>
             <button className="view-colln-btn">VIEW THE COLLECTION</button>
           </div>

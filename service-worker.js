@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/KINGSLEY-ROWE-FRONTEND-WEB/precache-manifest.bd1c51e70479f5f7b3fc40703ff62dfb.js"
+  "/KINGSLEY-ROWE-FRONTEND-WEB/precache-manifest.b179144d4bb2e2a6e0477678ef0d176e.js"
 );
 
 self.addEventListener('message', (event) => {

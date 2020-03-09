@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/KINGSLEY-ROWE-FRONTEND-WEB/static/css/main.c3e76803.chunk.css",
-    "main.js": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/main.d863762b.chunk.js",
-    "main.js.map": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/main.d863762b.chunk.js.map",
+    "main.js": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/main.b0c87aab.chunk.js",
+    "main.js.map": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/main.b0c87aab.chunk.js.map",
     "runtime-main.js": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/runtime-main.533d804b.js",
     "runtime-main.js.map": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/runtime-main.533d804b.js.map",
     "static/js/2.1d3b57f4.chunk.js": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/2.1d3b57f4.chunk.js",
     "static/js/2.1d3b57f4.chunk.js.map": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/2.1d3b57f4.chunk.js.map",
     "index.html": "/KINGSLEY-ROWE-FRONTEND-WEB/index.html",
-    "precache-manifest.bd1c51e70479f5f7b3fc40703ff62dfb.js": "/KINGSLEY-ROWE-FRONTEND-WEB/precache-manifest.bd1c51e70479f5f7b3fc40703ff62dfb.js",
+    "precache-manifest.b179144d4bb2e2a6e0477678ef0d176e.js": "/KINGSLEY-ROWE-FRONTEND-WEB/precache-manifest.b179144d4bb2e2a6e0477678ef0d176e.js",
     "service-worker.js": "/KINGSLEY-ROWE-FRONTEND-WEB/service-worker.js",
     "static/css/main.c3e76803.chunk.css.map": "/KINGSLEY-ROWE-FRONTEND-WEB/static/css/main.c3e76803.chunk.css.map",
     "static/js/2.1d3b57f4.chunk.js.LICENSE.txt": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/2.1d3b57f4.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.533d804b.js",
     "static/js/2.1d3b57f4.chunk.js",
     "static/css/main.c3e76803.chunk.css",
-    "static/js/main.d863762b.chunk.js"
+    "static/js/main.b0c87aab.chunk.js"
   ]
 }

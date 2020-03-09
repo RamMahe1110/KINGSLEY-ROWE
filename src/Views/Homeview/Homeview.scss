@@ -114,9 +114,32 @@
     background-position: center;
     background-attachment: fixed;
   }
-  .footer {
-    height: 100vh;
-    background-color: #333;
+  .contact {
+    background-color: black;
+    .container {
+      max-width: 500px;
+      margin: auto;
+      text-align: center;
+      padding: 200px 0;
+      color: #fff;
+      .top-text {
+        font-size: 50px;
+        margin: 0 0 50px 0;
+      }
+      .line {
+        width: 20px;
+        color: silver;
+        margin: 0 auto 50px auto;
+      }
+      .number {
+        color: #959595;
+        font-size: 35px;
+      }
+      .mail {
+        color: #8e8e8e;
+        font-size: 30px;
+      }
+    }
   }
 }
 
@@ -189,6 +212,26 @@
           font-size: 17px;
           padding: 15px 15px;
           margin: 0 0 15px 0;
+        }
+      }
+    }
+    .contact {
+      background-color: black;
+      .container {
+        color: #fff;
+        .top-text {
+          font-size: 35px;
+          margin: 0 0 30px 0;
+        }
+        .line {
+          width: 20px;
+          margin: 0 auto 30px auto;
+        }
+        .number {
+          font-size: 25px;
+        }
+        .mail {
+          font-size: 20px;
         }
       }
     }

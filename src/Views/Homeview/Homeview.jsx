@@ -101,7 +101,14 @@ class Homeview extends Component {
           </div>
         </section>
         <section className="extra-showcase"></section>
-        <footer className="footer"></footer>
+        <section className="contact">
+          <div className="container">
+            <h2 className="top-text">CONTACT US</h2>
+            <hr className="line"/>
+            <h3 className="number">T.866.604.5700</h3>
+            <div className="mail">SALES@KINGSLEYROWE.COM</div>
+          </div>
+        </section>
       </div>
     )
   }

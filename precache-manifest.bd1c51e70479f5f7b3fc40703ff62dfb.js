@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24e8a35fc30660f07b957ae8a628ea28",
+    "revision": "f7eb4e3ad19a421e4afba25a93ffec57",
     "url": "/KINGSLEY-ROWE-FRONTEND-WEB/index.html"
   },
   {
-    "revision": "2d2afc0446b98e6d666f",
-    "url": "/KINGSLEY-ROWE-FRONTEND-WEB/static/css/main.e06cf7f6.chunk.css"
+    "revision": "49d49341451206776038",
+    "url": "/KINGSLEY-ROWE-FRONTEND-WEB/static/css/main.c3e76803.chunk.css"
   },
   {
     "revision": "7cfbf4c7bb8251ebf128",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/2.1d3b57f4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d2afc0446b98e6d666f",
-    "url": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/main.a1f684e2.chunk.js"
+    "revision": "49d49341451206776038",
+    "url": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/main.d863762b.chunk.js"
   },
   {
     "revision": "4bf0d567d52bb1ea7c1b",

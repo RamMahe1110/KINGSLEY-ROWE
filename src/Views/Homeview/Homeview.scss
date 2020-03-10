@@ -192,6 +192,9 @@
               font-size: 20px;
             }
           }
+          :nth-child(9) {
+            display: none;
+          }
         }
       }
     }

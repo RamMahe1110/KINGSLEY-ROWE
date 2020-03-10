@@ -141,6 +141,44 @@
       }
     }
   }
+  .main-footer {
+    .footer-top {
+      .container {
+        padding: 150px 0;
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        .social-link {
+          font-size: 20px;
+          background: none;
+          cursor: pointer;
+          font-weight: bold;
+        }
+      }
+    }
+    .footer-bottom {
+      background-color: #DFDFDF;
+      .container {
+        max-width: 90%;
+        margin: auto;
+        padding: 13px 0;
+        display: flex;
+        justify-content: center;
+        .text, .link {
+          text-align: center;
+          padding: 0px 20px;
+          margin: 0 20px 0 0;
+          border-right: 2px solid black;
+          font-size: 15px;
+          font-weight: bold;
+        }
+        :nth-child(5) {
+          border-right: none;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 1200px) {

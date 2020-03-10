@@ -104,11 +104,35 @@ class Homeview extends Component {
         <section className="contact">
           <div className="container">
             <h2 className="top-text">CONTACT US</h2>
-            <hr className="line"/>
+            <hr className="line" />
             <h3 className="number">T.866.604.5700</h3>
             <div className="mail">SALES@KINGSLEYROWE.COM</div>
           </div>
         </section>
+        <footer className="main-footer">
+          <div className="footer-top">
+            <div className="container">
+              <span className="social-link">FACEBOOK</span>
+              <span className="social-link">TWITTER</span>
+              <span className="social-link">INSTAGRAM</span>
+              <span className="social-link">PINTEREST</span>
+            </div>
+          </div>
+          <div className="footer-bottom">
+            <div className="container">
+              <span className="text">
+                COPYRIGHT © 2015. ALL RIGHTS RESERVED
+              </span>
+              <span className="link">TERMS & CONDITIONS</span>
+              <span className="link">SHIPPING & RETURNS</span>
+              <span className="link">CONTACT</span>
+              <span className="link">
+                DESIGN & DEVELOPED BY{' '}
+                <span className="name">RAM MAHESHWARI</span>
+              </span>
+            </div>
+          </div>
+        </footer>
       </div>
     )
   }

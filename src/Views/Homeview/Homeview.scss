@@ -244,6 +244,16 @@
 
 @media (max-width: 800px) {
   .homeview {
+    .homeview-header {
+      .showcase {
+        .hero {
+        }
+      }
+    }
+    .gender-guide,
+    .extra-showcase {
+      background-attachment: initial;
+    }
     .main-footer {
       .footer-top {
         .container {
@@ -319,7 +329,8 @@
         .container {
           // justify-content: space-between;
           align-items: center;
-          .text, .link {
+          .text,
+          .link {
             padding: 0;
             width: 100%;
             border: none;

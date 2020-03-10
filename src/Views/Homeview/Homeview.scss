@@ -158,20 +158,23 @@
       }
     }
     .footer-bottom {
-      background-color: #DFDFDF;
+      background-color: #dfdfdf;
       .container {
         max-width: 90%;
         margin: auto;
-        padding: 15px 0;
+        padding: 0px 0;
         display: flex;
         justify-content: center;
-        .text, .link {
+        flex-wrap: wrap;
+        .text,
+        .link {
           text-align: center;
           padding: 0px 20px;
           margin: 0 20px 0 0;
           border-right: 2px solid black;
           font-size: 15px;
           font-weight: bold;
+          margin: 10px 0;
         }
         :nth-child(5) {
           border-right: none;
@@ -239,6 +242,41 @@
   }
 }
 
+@media (max-width: 800px) {
+  .homeview {
+    .main-footer {
+      .footer-top {
+        .container {
+          width: 80%;
+          margin: auto;
+          .social-link {
+            font-size: 15px;
+          }
+        }
+      }
+      .footer-bottom {
+        margin-bottom: 70px;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .homeview {
+    .main-footer {
+      .footer-bottom {
+        .container {
+          .text,
+          .link {
+            font-size: 12px;
+            border-left: 0px solid black;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 600px) {
   .homeview {
     .homeview-header {
@@ -276,6 +314,27 @@
         }
       }
     }
+    .main-footer {
+      .footer-bottom {
+        .container {
+          // justify-content: space-between;
+          align-items: center;
+          .text, .link {
+            padding: 0;
+            width: 100%;
+            border: none;
+            padding: 10px;
+            text-align: left;
+            font-size: 15px;
+            margin: 10px 0;
+          }
+          .text {
+            text-align: center;
+            margin: 20px 0 20px 0;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -305,6 +364,17 @@
           width: 170px;
           font-size: 12px;
           margin: 50px 0 0 0;
+        }
+      }
+    }
+
+    .main-footer {
+      .footer-top {
+        .container {
+          padding: 70px 0;
+          .social-link {
+            font-size: 12px;
+          }
         }
       }
     }

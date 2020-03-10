@@ -8,7 +8,8 @@
     position: fixed;
     display: block;
     background-color: black;
-    padding: 20px 0;
+    padding: 15px 0;
+
     color: #fff;
     z-index: 5;
     bottom: 0;
@@ -20,12 +21,16 @@
       align-items: center;
       font-size: 12px;
       .menu-btn {
-        padding: 7px 15px;
-        border: 1px solid #fff;
+        width: 25%;
+        padding: 10px 15px;
+        border: 1.2px solid #fff;
+        text-align: center;
       }
       .cart-btn {
-        padding: 7px 20px;
-        border: 1px solid #fff;
+        text-align: center;
+        width: 25%;
+        padding: 10px 20px;
+        border: 1.2px solid #fff;
         .items-count {
           margin-left: 5px;
         }

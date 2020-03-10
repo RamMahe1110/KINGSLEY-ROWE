@@ -41,6 +41,17 @@
   }
 }
 
+@media (max-width: 1300px) {
+  .topbar {
+    .container {
+      .cart {
+        width: 10%;
+        padding: 5px 15px;
+      }
+    }
+  }
+}
+
 @media (max-width: 800px) {
   .topbar {
     .container {

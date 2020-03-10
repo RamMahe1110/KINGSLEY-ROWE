@@ -244,12 +244,12 @@
 
 @media (max-width: 800px) {
   .homeview {
-    .homeview-header {
-      .showcase {
-        .hero {
-        }
-      }
-    }
+    // .homeview-header {
+    //   .showcase {
+    //     .hero {
+    //     }
+    //   }
+    // }
     .gender-guide,
     .extra-showcase {
       background-attachment: initial;
@@ -265,7 +265,7 @@
         }
       }
       .footer-bottom {
-        margin-bottom: 70px;
+        margin-bottom: 66px;
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KINGSLEY-ROWE-FRONTEND-WEB/static/css/main.9cf1c589.chunk.css",
+    "main.css": "/KINGSLEY-ROWE-FRONTEND-WEB/static/css/main.95d1bd18.chunk.css",
     "main.js": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/main.b415c256.chunk.js",
     "main.js.map": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/main.b415c256.chunk.js.map",
     "runtime-main.js": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/runtime-main.533d804b.js",
@@ -8,15 +8,15 @@
     "static/js/2.1d3b57f4.chunk.js": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/2.1d3b57f4.chunk.js",
     "static/js/2.1d3b57f4.chunk.js.map": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/2.1d3b57f4.chunk.js.map",
     "index.html": "/KINGSLEY-ROWE-FRONTEND-WEB/index.html",
-    "precache-manifest.920bbf30b09506dc8ff4490d76aab8aa.js": "/KINGSLEY-ROWE-FRONTEND-WEB/precache-manifest.920bbf30b09506dc8ff4490d76aab8aa.js",
+    "precache-manifest.3e2451f7b78afdf70917e2313a25e2c7.js": "/KINGSLEY-ROWE-FRONTEND-WEB/precache-manifest.3e2451f7b78afdf70917e2313a25e2c7.js",
     "service-worker.js": "/KINGSLEY-ROWE-FRONTEND-WEB/service-worker.js",
-    "static/css/main.9cf1c589.chunk.css.map": "/KINGSLEY-ROWE-FRONTEND-WEB/static/css/main.9cf1c589.chunk.css.map",
+    "static/css/main.95d1bd18.chunk.css.map": "/KINGSLEY-ROWE-FRONTEND-WEB/static/css/main.95d1bd18.chunk.css.map",
     "static/js/2.1d3b57f4.chunk.js.LICENSE.txt": "/KINGSLEY-ROWE-FRONTEND-WEB/static/js/2.1d3b57f4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.533d804b.js",
     "static/js/2.1d3b57f4.chunk.js",
-    "static/css/main.9cf1c589.chunk.css",
+    "static/css/main.95d1bd18.chunk.css",
     "static/js/main.b415c256.chunk.js"
   ]
 }
